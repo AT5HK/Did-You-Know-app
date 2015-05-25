@@ -14,6 +14,8 @@
 		50A138B41B13710A00247F60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A138B31B13710A00247F60 /* Images.xcassets */; };
 		50A138B71B13710A00247F60 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A138B51B13710A00247F60 /* LaunchScreen.xib */; };
 		50A138C31B13710A00247F60 /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A138C21B13710A00247F60 /* FunFactsTests.m */; };
+		50A138CE1B13802100247F60 /* Facts.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A138CD1B13802100247F60 /* Facts.m */; };
+		50A138D11B13BCDB00247F60 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A138D01B13BCDB00247F60 /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		50A138BC1B13710A00247F60 /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A138C11B13710A00247F60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50A138C21B13710A00247F60 /* FunFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsTests.m; sourceTree = "<group>"; };
+		50A138CC1B13802100247F60 /* Facts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facts.h; sourceTree = "<group>"; };
+		50A138CD1B13802100247F60 /* Facts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facts.m; sourceTree = "<group>"; };
+		50A138CF1B13BCDB00247F60 /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		50A138D01B13BCDB00247F60 /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				50A138AB1B13710A00247F60 /* AppDelegate.m */,
 				50A138AD1B13710A00247F60 /* ViewController.h */,
 				50A138AE1B13710A00247F60 /* ViewController.m */,
+				50A138CC1B13802100247F60 /* Facts.h */,
+				50A138CD1B13802100247F60 /* Facts.m */,
+				50A138CF1B13BCDB00247F60 /* ColorWheel.h */,
+				50A138D01B13BCDB00247F60 /* ColorWheel.m */,
 				50A138B01B13710A00247F60 /* Main.storyboard */,
 				50A138B31B13710A00247F60 /* Images.xcassets */,
 				50A138B51B13710A00247F60 /* LaunchScreen.xib */,
@@ -222,6 +232,8 @@
 				50A138AF1B13710A00247F60 /* ViewController.m in Sources */,
 				50A138AC1B13710A00247F60 /* AppDelegate.m in Sources */,
 				50A138A91B13710A00247F60 /* main.m in Sources */,
+				50A138CE1B13802100247F60 /* Facts.m in Sources */,
+				50A138D11B13BCDB00247F60 /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

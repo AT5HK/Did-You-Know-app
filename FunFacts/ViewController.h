@@ -7,9 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ColorWheel.h"
+
+@class ColorWheel;
+@class Facts;
 
 @interface ViewController : UIViewController
 
+@property(strong, nonatomic) Facts *fact;
+@property(strong,nonatomic) ColorWheel *colorWheel;
+
+@property (weak, nonatomic) IBOutlet UILabel *factsLabel;
+
+- (IBAction)randomFact:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIButton *funFactButton;
 
 @end
 
